@@ -1,0 +1,59 @@
+ /* CSS for settemp.php */
+Body {
+	margin: 0px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background: url("/img/background.png");
+	overflow: hidden;
+	color: #dddddd;
+	font-size: 60px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: #dddddd;
+}
+
+td {
+	text-align: center;
+}
+
+#mBack {
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width: 800px;
+	height: 480px; 
+	overflow: hidden;
+}
+
+#numPanel {
+	position: absolute;
+	height: 480px;
+	width: 400px;
+	left: 400px;
+	top: 0px;
+	font-size: 100px;
+}
+
+#numDisplay {
+	position: absolute;
+	height: 480px;
+	width: 400px;
+	font-size: 90px;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#numPanelTable {
+	border: 0px solid black;
+}
+
+.numButton {
+	width: 110px;
+	font-size: 80px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(34,34,34,0.5);
+}
